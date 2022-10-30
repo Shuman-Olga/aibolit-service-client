@@ -1,0 +1,18 @@
+@media (max-width: 990px) {
+  #calling {
+    .d-flex {
+      flex-wrap: wrap;
+    }
+    .card {
+      margin-bottom: 15px;
+    }
+  }
+}
+@media (min-width: 576px) {
+  #calling {
+    .container,
+    .container-sm {
+      max-width: fit-content;
+    }
+  }
+}

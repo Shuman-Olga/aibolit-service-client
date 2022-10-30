@@ -1,0 +1,10 @@
+.span-size {
+  &:hover {
+    border-radius: 2px;
+    cursor: pointer;
+    background: rgb(197, 197, 197);
+  }
+  &:active {
+    color: red;
+  }
+}

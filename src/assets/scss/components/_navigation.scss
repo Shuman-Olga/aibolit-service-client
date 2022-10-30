@@ -1,0 +1,34 @@
+.profile-img {
+  width: 36px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+.navbar-nav {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  width: 100%;
+  justify-content: flex-end;
+}
+.icon {
+  display: flex;
+}
+.fst-italic {
+  margin-bottom: 0;
+}
+#btn-offcanvas {
+  border: 0;
+  color: unset;
+  text-decoration: none;
+  outline: none !important;
+  box-shadow: none;
+}
+#navbar {
+  --bs-bg-opacity: 0;
+  background: transparent;
+  .nav-item {
+    font-weight: bold;
+  }
+}
