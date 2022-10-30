@@ -1,0 +1,28 @@
+#error,
+#error-name,
+#error-password,
+#reeor-email {
+  position: absolute;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+#error-name {
+  left: -25px;
+}
+#error::after,
+#error-name::after,
+#error-password::after,
+#reeor-email::after {
+  content: '';
+  position: absolute;
+  right: 70%;
+  top: -27px;
+  margin-left: -16px;
+  border: 16px solid transparent;
+  border-bottom: 10px solid #f8d7da;
+}
+.box-position {
+  position: relative;
+}

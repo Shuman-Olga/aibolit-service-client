@@ -1,0 +1,18 @@
+@import '../variables';
+
+// .header {
+//   border-bottom: 1px solid $gray-line;
+//   padding: 40px 0;
+//   &__logo {
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     img {
+//       width: 100px;
+//     }
+//   }
+// }
+#header {
+  background: rgb(152, 203, 250);
+  padding: 15px;
+}

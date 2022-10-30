@@ -1,0 +1,14 @@
+#profile {
+  .btn-close {
+    outline: none !important;
+    box-shadow: none;
+  }
+  .offcanvas {
+    --bs-offcanvas-width: 70vw;
+  }
+}
+@media (max-width: 430px) {
+  .offcanvas.offcanvas-end {
+    --bs-offcanvas-width: 80vw;
+  }
+}
